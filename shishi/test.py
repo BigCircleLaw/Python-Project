@@ -1,18 +1,14 @@
 # !/usr/bin/python
 #  -*- coding:utf-8 -*-
 
-y = open("test.txt", "r")
+# Y = open("test.txt", "r")
 
-print(y)
-print(y.read())
-y.close()
+# print(Y)
+# print(Y.read())
+# Y.close()
 
-y = open("hello.py", "r")
+Y = open("hello.py", "r")
 
-print(y)
-print(y.read())
-y.close()
-
-
-
-
+print(Y)
+print(Y.read())
+Y.close()
