@@ -1,0 +1,11 @@
+
+*.DS_Store
+*.mpy
+.vscode
+modules
+test
+__pycache__
+**build
+*.bin
+*.pdf
+module.md

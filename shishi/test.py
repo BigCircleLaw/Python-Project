@@ -1,14 +1,5 @@
-# !/usr/bin/python
-#  -*- coding:utf-8 -*-
+try: print(1223)
+except: print('except')
 
-# Y = open("test.txt", "r")
-
-# print(Y)
-# print(Y.read())
-# Y.close()
-
-Y = open("hello.py", "r")
-
-print(Y)
-print(Y.read())
-Y.close()
+try: print(a)
+except: print('except')

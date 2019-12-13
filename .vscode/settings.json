@@ -1,5 +1,31 @@
 {
     "python.linting.flake8Enabled": true,
     // "python.formatting.provider": "autopep8",
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "yapf",
+    "python.autoComplete.extraPaths": [
+        "C:/Users/79455/.vscode/extensions/rt-thread.rt-thread-micropython-0.3.1/microExamples/code-completion"
+    ],
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys; sys.path.append('C:/Users/79455/.vscode/extensions/rt-thread.rt-thread-micropython-0.3.1/microExamples/code-completion')"
+    ],
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "运行",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "同步",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ],
+    "editor.formatOnSave": true
 }

@@ -9,10 +9,10 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "pythonPath": "C:\\Python36",
+            "pythonPath": "C:\\Python\\Python37-32\\python.exe",
             "program": "${file}",
             "cwd": "${workspaceFolder}",
-            "args":[
+            "args": [
                 "param_one",
                 "param_twe"
             ],

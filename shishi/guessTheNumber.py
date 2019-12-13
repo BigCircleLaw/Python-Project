@@ -1,6 +1,3 @@
-import random
-
-
 def getResult():
     print('Take a guess.')
     num = int(input())
@@ -14,10 +11,15 @@ def getResult():
         print('Good jod!', end=' ')
         return False
 
+temp = input()
+if temp == 'True':
+    import random
 
-value = random.randint(1, 20)
+    value = random.randint(1, 20)
 
-count = 1
-while getResult():
-    count = count + 1
-print('You guessed my number in ' + str(count) + ' guess!')
+    count = 1
+    while getResult():
+        count = count + 1
+    print('You guessed my number in ' + str(count) + ' guess!')
+else:
+    print('Game over!')

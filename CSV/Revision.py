@@ -20,7 +20,7 @@ fileName = os.path.basename(filePath)
 # print(fileName)
 fileSplit = fileName.split('.')
 # print(fileSplit)
-dataRegex = re.compile(r'(\d\.\d{6}).*(0x[\d A-F][\d A-F])')
+dataRegex = re.compile(r'(\d*\.\d{6}).*(0x[\d A-F][\d A-F])')
 targetfile = open(
     fileDir + '\\' + fileSplit[0] + '_revision' + '.' + fileSplit[1], 'w+')
 for txtline in txtLines:
